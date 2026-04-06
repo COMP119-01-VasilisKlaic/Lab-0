@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    // menu options
+    int choice;
+
+    cout << "Please select a menu option: " << endl;
+    cout << "0) Exit " << endl;
+    cout << "1) Sum two numbers " << endl;
+    cout << "2) Calculate area of a circle " << endl;
+    cout << "3) Calculate circumference of a circle " << endl;
+    cout << "4) Calculate price with VAT " << endl;
+
+    cin >> choice;
+
+    return 0;
+}
